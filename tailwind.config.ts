@@ -12,6 +12,10 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      transitionProperty:{
+        'height':'height',
+        'width':'width'
+      }
     },
   },
   plugins: [],
